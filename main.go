@@ -37,7 +37,7 @@ func main() {
         if now.After(backupTime) {
             backupFile := fmt.Sprintf("backup_%s.sql", now.Format("20060102_150405"))
             backupPath := filepath.Join(backupDir, backupFile)
-
+            
             db, err := pq.Connect("postgres", connectionString)
             if err != nil {
                 fmt.Println("Error connecting to database:", err)
