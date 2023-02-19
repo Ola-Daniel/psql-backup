@@ -1,0 +1,1 @@
+This is a basic program written in golang that backups an Azure Postgresql Database Server and uploads the backup files to an Azure Blob Storage Container.
