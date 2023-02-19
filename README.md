@@ -12,5 +12,5 @@ DB_NAME : Database Name <br />
 BACKUP_DIR : Directory to store backup data <br />
 ACCOUNT_NAME : Azure Storage Account Name <br />
 ACCOUNT_KEY : Azure Storage Account Key <br />
-CONTAINER_NAME : Azure Storage Account Container to store backup data files <br />
-BACKUP_TIME : Time to initiate backup of Database Server daily in this format "15:30" <br />
+CONTAINER_NAME : Storage Account Container to store backup data files <br />
+BACKUP_TIME : Time to initiate backup daily in this format "15:30" <br />
